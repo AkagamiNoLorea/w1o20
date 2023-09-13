@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/formularios.css">
+</head>
+
+<body>
+    <div>
+        <h2>Formulario de registro</h2>
+    </div>
+    <div class="formulario">
+        <form action="/action_page.php" method="get">
+            <div class="nombres">
+                <label for="fname">Nombre:</label><br><br>
+                <label for="lname">Apellidos</label><br><br>
+            <label for="phone">Telefono:</label><br><br>
+            <label for="mail">e-mail:</label><br><br>
+            <label for="nickname">Nombre de usuario:</label><br><br>
+            <label for="password">Contraseña</label><br><br></div>
+            <div class="cajas">
+                <input type="text" id="fname" name="fname"><br><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br><br>
+                <input type="email" name="mail" id="mail"><br><br>
+                <input type="text" id="nickname" name="nickname"><br><br>
+                <input type="text" id="password" name="password"><br><br>
+            </div>
+        </form>
+        <input type="submit" value="Entra">
+        </form>
+    </div>
+</body>
+
+</html>
